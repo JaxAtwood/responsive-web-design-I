@@ -294,7 +294,7 @@ ul {
 	 width: 400px;
  }
 
- /*Responsive Styles*/
+ /*Responsive Styles fpr 800px*/
 @media screen and (max-width:800px) {
 	.inline-img {
 		display: none;
@@ -329,6 +329,50 @@ ul {
 		margin-bottom: 30px;
 	}
 }
-
+ /*Responsive Styles for 500px*/
 @media screen and (max-width:500px) {
+	.container {
+		width: 400px;
+	}
+	.logo {
+		margin-top: 250px;
+		margin-left: 120px;
+		width: 40%;
+	}
+	nav {
+		flex-direction: column;
+		justify-content: baseline
+	}
+	header nav a {
+		border-bottom: solid black 1px;
+		width: 400px;
+		padding: 20px;
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.services {
+		margin-top:15px;
+		border-top: solid black 1px;
+		width:400px;
+	}
+	.cta {
+		margin-top: 250px;
+	}
+	.button {
+		width: 125px;
+		height: 30px;
+		padding-top: 5px;
+	}
+	.topBar {
+		justify-items: center;
+	}
+	.middleSection {
+		flex-direction: column;
+		height: 250px;
+	}
+	.bottomSection {
+		flex-direction: column;
+		height: 350px;
+		alight-items: center;
+	}
 }
