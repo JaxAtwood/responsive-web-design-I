@@ -123,6 +123,7 @@ header {
 
 .logo {
 	float: right;
+	width: 100%;
 }
 
 .middle-img {
@@ -299,18 +300,33 @@ ul {
 		display: none;
 	}
 	.container {
-		width: 400px;
+		width: 650px;
+		justify-content: center;
 	}
 	nav {
-		justify-content: space-around;
-		width: 100px;
+		justify-content: space-between;
+		order: 2;
 	}
 	.middle-img {
-		width: 400px;
+		width: 100%;
+		margin-bottom: 40px;
 	}
-	header nav a {
-		justify-content: center;
-		margin: 0 auto;
+	.topBar {
+		flex-direction: column;
+		height: 200px;
+	}
+	.logo {
+		order: 1;
+		width: 30%;
+		margin-left: 220px;
+	}
+	hr {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-top: 40px;
+	}
+	.inline2 {
+		margin-bottom: 30px;
 	}
 }
 
